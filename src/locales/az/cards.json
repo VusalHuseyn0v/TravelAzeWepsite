@@ -1,0 +1,61 @@
+{
+  "mostVisited": "Ən çox ziyarət olunan istiqamətlər",
+  "details": "Ətraflı",
+
+  "destinations": {
+    "qax": {
+      "title": "Qax",
+      "location": "Azərbaycan Qax",
+      "grade": "Mədəni istirahət",
+      "description": "Qax rayonu, Azərbaycanın şimal-qərb hissəsində yerləşən və zəngin təbiətinə, qədim tarixə və mədəniyyətə sahib olan bir ərazidir. Bu rayon, həm..."
+    },
+    "sheki": {
+      "title": "Şəki",
+      "location": "Azərbaycan Şəki",
+      "grade": "Mədəni istirahət",
+      "description": "Şəki rayonu, Azərbaycanın şimal-qərb hissəsində yerləşən və tarixi, mədəniyyəti və təbiəti ilə seçilən bir bölgədir. Bu rayon, həm yerli, həm də xarici..."
+    },
+    "zaqatala": {
+      "title": "Zaqatala",
+      "location": "Azərbaycan Zaqatala",
+      "grade": "Mədəni istirahət",
+      "description": "Zaqatala rayonu, Azərbaycan Respublikasının şimal-qərb hissəsində yerləşən, təbiəti, tarixi və mədəniyyəti ilə məşhur olan bir rayondur..."
+    },
+    "qusar": {
+      "title": "Qusar",
+      "location": "Azərbaycan Qusar",
+      "grade": "Mədəni istirahət",
+      "description": "Qusar rayonu Azərbaycanın şimalında, Böyük Qafqaz dağlarının ətəklərində yerləşir. Rayon Quba ilə sərhəddə yerləşərək dağlıq və meşəlik ərazilərlə..."
+    },
+    "quba": {
+      "title": "Quba",
+      "location": "Azərbaycan Quba",
+      "grade": "Mədəni istirahət",
+      "description": "Quba rayonu Azərbaycanın şimalında, Böyük Qafqaz dağlarının cənub ətəyində, Xəzər dənizindən qərbdə yerləşir. Quba Rusiya Federasiyasının..."
+    },
+    "ismayilli": {
+      "title": "İsmayıllı",
+      "location": "Azərbaycan İsmayıllı",
+      "grade": "Mədəni istirahət",
+      "description": "İsmayıllı rayonu, Azərbaycanın şimal-şərq hissəsində yerləşən, zəngin təbiəti və mədəniyyəti ilə tanınan bir bölgədir. Quba və Şəki rayonları..."
+    },
+    "qebele": {
+      "title": "Qəbələ",
+      "location": "Azərbaycan Qəbələ",
+      "grade": "Mədəni istirahət",
+      "description": "Qəbələ rayonu Azərbaycanın şimal-qərbində, Böyük Qafqaz dağlarının cənub ətəklərində yerləşir. Bu bölgə zəngin təbii resurslara və füsunkar..."
+    },
+    "lenkeran": {
+      "title": "Lənkəran",
+      "location": "Azərbaycan Lənkəran",
+      "grade": "Mədəni istirahət",
+      "description": "Lənkəran rayonu, Azərbaycanın cənubunda yerləşən, təbii gözəllikləri, zəngin mədəni irsi və iqtisadi əhəmiyyəti ilə tanınan bir rayondur..."
+    },
+    "lerik": {
+      "title": "Lerik",
+      "location": "Azərbaycan Lerik",
+      "grade": "Mədəni istirahət",
+      "description": "Lerik rayonu, Azərbaycanın cənubunda, Lənkəran rayonu ilə sərhəddə yerləşən və təbii gözəllikləri, zəngin mədəniyyəti və nadir flora və faunası ilə..."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ourPackages": "Наши туры",
+  "searchHoliday": "Найдите свой Отпуск",
+  "searchDestination": "Выберите направление:",
+  "selectCity": "Выберите город",
+  "checkIn": "Дата заезда",
+  "checkOut": "Дата выезда",
+  "searchBtn": "ИСКАТЬ",
+  "selectDestinationAlert": "Пожалуйста, выберите направление"
+}

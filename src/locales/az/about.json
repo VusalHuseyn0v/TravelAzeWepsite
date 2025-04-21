@@ -1,0 +1,11 @@
+{
+  "title": "Haqqımda",
+  "intro1": "Salam! Mən Vüsal Hüseynov, bir frontend developer olaraq veb saytları və tətbiqlərini müasir və istifadəçi dostu dizaynlarla yaratmağa çalışıram. İnteraktiv və estetik cəhətdən cəlbedici veb səhifələrin hazırlanması sahəsində özümü inkişaf etdirməkdən böyük zövq alıram.",
+  "intro2": "Özümə məxsus tərtibatla, istifadəçilərə mükəmməl təcrübə təqdim etmək üçün HTML, CSS, JavaScript və React.js kimi texnologiyaları effektiv şəkildə istifadə edirəm. Veb dizaynın sadə və funksional olmasına önəm verirəm və müxtəlif ekran ölçüləri və cihazlara uyğun responsive dizaynlar yaratmağa xüsusi diqqət yetirirəm.",
+  "skillsTitle": "Texnologiyalar və Bacarıqlarım:",
+  "html": "HTML, CSS – Veb saytların əsas strukturu və dizaynını qururam.",
+  "js": "JavaScript, React.js – Dinamik və interaktiv veb tətbiqləri yaratmaq üçün istifadə edirəm.",
+  "cssLibs": "Sass, Bootstrap, Tailwind CSS – Daha sürətli və effektiv dizayn prosesləri üçün.",
+  "git": "Version Control (Git, GitHub) – Komanda ilə işləmək və layihələrin idarə olunması üçün.",
+  "outro": "Hər bir layihə mənim üçün yeni bir təcrübə və inkişaf fürsəti olur. Mənim məqsədim sadəcə gözəl veb saytlar yaratmaq deyil, həm də istifadəçi təcrübəsini (UX) mükəmməl etməkdir. Əgər yeni layihələrdə əməkdaşlıq etmək və ya sadəcə danışmaq istəyirsinizsə, mənə müraciət etməkdən çəkinməyin!"
+}

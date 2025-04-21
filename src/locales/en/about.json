@@ -1,0 +1,11 @@
+{
+  "title": "About Me",
+  "intro1": "Hello! I’m Vusal Huseynov, a frontend developer dedicated to building modern and user-friendly websites and applications. I enjoy improving my skills in creating interactive and aesthetically pleasing web pages.",
+  "intro2": "With my own style, I aim to deliver the best user experience using technologies such as HTML, CSS, JavaScript, and React.js. I prioritize clean and functional design and focus on creating responsive layouts for different screens and devices.",
+  "skillsTitle": "Technologies & Skills:",
+  "html": "HTML, CSS – Building the basic structure and design of websites.",
+  "js": "JavaScript, React.js – For developing dynamic and interactive web applications.",
+  "cssLibs": "Sass, Bootstrap, Tailwind CSS – For faster and efficient design workflows.",
+  "git": "Version Control (Git, GitHub) – For collaborating and managing projects.",
+  "outro": "Every project is a new learning experience for me. My goal is not just to create beautiful websites, but also to provide the best user experience (UX). If you'd like to collaborate or just chat, feel free to reach out!"
+}

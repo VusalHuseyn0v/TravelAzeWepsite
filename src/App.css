@@ -1,38 +1,334 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,
+        85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(235, 235, 235);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-size: 20px;
+  cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  align-items: center;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  &:hover {
+    color: var(--PrimaryColor);
   }
-  to {
-    transform: rotate(360deg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.btn {
+  padding: .6rem 1.5rem;
+  background: var(--gradientColor);
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn a {
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: var(--SecondaryColor);
+}
+
+img,
+video {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-size: 100%;
+}
+
+body {
+  background: var(--bodyColor);
+}
+
+body.dark {
+  background: var(--blackColor);
+  color: var(--whiteColor);
+
+  .language-dropdown button {
+    color: var(--whiteColor);
+
+  }
+
+  .language-options {
+    background: var(--blackColor);
+    color: var(--whiteColor);
+  }
+
+  .language-dropdown button :hover {
+    color: var(--PrimaryColor);
+  }
+}
+
+.language-dropdown {
+  position: relative;
+  border: none;
+}
+
+.language-options {
+  position: absolute;
+  margin-top: 5px;
+  right: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  z-index: 1000;
+  list-style-type: none;
+  padding: 5px;
+  width: 40px;
+  text-align: center;
+  display: none;
+  background: var(--whiteColor);
+  color: var(--blackColor);
+}
+
+@media screen and (max-width:960px) {
+  .language-options {
+    position: absolute;
+    left: -12px;
+  }
+}
+
+.language-dropdown .language-options {
+  display: block;
+}
+
+.language-dropdown button {
+  border: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.language-dropdown button:hover {
+  color: var(--PrimaryColor);
+}
+
+.language-options li {
+  padding: 2px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.language-options li:hover {
+  background: var(--gradientColor);
+}
+
+@media screen and (min-width:1240px) {
+  .container {
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+  .section {
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media screen and (min-width:2560px) {
+  body {
+    zoom: 1.7;
+  }
+}
+
+.ismayilli,
+.lenkeran,
+.lerik,
+.qax,
+.qebele,
+.quba,
+.qusar,
+.seki,
+.zaqatala {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  padding-top: 1rem;
+
+  h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 5rem;
+    align-items: center;
+
+    img {
+      min-width: 40vw;
+      height: 400px;
+      border-radius: 10%;
+      box-shadow: 0px 0px 20px 1px var(--PrimaryColor);
+
+    }
+  }
+}
+
+@media screen and (min-width:2560px) {
+
+  .ismayilli,
+  .lenkeran,
+  .lerik,
+  .qax,
+  .qebele,
+  .quba,
+  .qusar,
+  .seki,
+  .zaqatala {
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+
+      img {
+        min-width: 20vw;
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width:900px) {
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+    img {
+      width: 80vw;
+      border-radius: 10%;
+      box-shadow: 0px 0px 20px 1px var(--PrimaryColor);
+    }
+
+    p {
+      max-width: 80vw;
+      justify-content: center;
+      width: 100%;
+    }
+  }
+
+
+
+  .second,
+  .fourth {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width:450px) {
+
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+    img {
+      width: 100%;
+      border-radius: 10%;
+      box-shadow: 0px 0px 20px 1px var(--PrimaryColor);
+    }
+
+    p {
+      width: 100%;
+      justify-content: center;
+
+    }
+  }
+
+
+
+  .second,
+  .fourth {
+    flex-direction: column-reverse;
   }
 }

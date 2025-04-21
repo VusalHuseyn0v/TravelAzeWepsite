@@ -1,0 +1,46 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,
+        85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(235, 235, 235);
+}
+
+body.dark {
+  .noPage {
+    background: var(--blackColor);
+
+    h2 {
+      color: var(--whiteColor);
+      font-size: 30px;
+    }
+  }
+}
+
+.noPage {
+  min-height: 100vh;
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    h1 {
+      font-size: 130px;
+      color: red;
+    }
+
+    h2 {
+      color: var(--blackColor);
+      font-size: 30px;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,
+              85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(199, 90%, 4%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(235, 235, 235);
+  --black: rgb(4, 5, 2);
+}
+
+.about {
+  background-image: url("../../Assets/Images/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--whiteColor);
+  padding: 1rem 0rem;
+  height: 100%;
+}
+.about .container {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.about .container .aboutWords p {
+  width: 40vw;
+  font-size: 14px;
+}
+.about .container img {
+  height: 450px;
+  width: 300px;
+  border-radius: 10%;
+  box-shadow: 1px 1px 10px 1px var(--whiteColor);
+}
+
+@media (min-width: 1260px) and (max-width: 2560px) {
+  .about .container {
+    gap: 50px;
+  }
+  .about .container .aboutWords p {
+    width: 60vw;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .about .container {
+    gap: 50px;
+  }
+  .about .container .aboutWords p {
+    font-size: 14px;
+    max-width: 35vw;
+  }
+}
+@media (min-width: 960px) and (max-width: 1258px) {
+  .about .container {
+    gap: 50px;
+  }
+  .about .container .aboutWords p {
+    width: 60vw;
+    font-size: 14px;
+  }
+}
+@media (min-width: 750px) and (max-width: 960px) {
+  .about .container {
+    gap: 20px;
+  }
+  .about .container .aboutWords p {
+    font-size: 14px;
+    width: 60vw;
+    line-height: 17px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about .container {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 15%;
+  }
+  .about .container .aboutWords p {
+    font-size: 14px;
+    width: 80vw;
+  }
+}

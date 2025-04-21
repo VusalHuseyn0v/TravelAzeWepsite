@@ -1,0 +1,90 @@
+:root {
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor: hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,
+              85%, 43%), hsl(199, 100%, 33%));
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 240);
+  --cardBG: rgb(235, 235, 235);
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../Assets/Images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact form {
+  width: 800px;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 25px 25px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 1px var(--whiteColor);
+}
+.contact form .contactIcons {
+  width: 100%;
+  justify-content: space-between;
+}
+.contact form .contactIcons .icon {
+  font-size: 20px;
+  margin: 0 5px;
+  color: var(--whiteColor);
+  font-weight: 600;
+}
+.contact form .contactIcons .icon:hover {
+  color: var(--PrimaryColor);
+}
+.contact form textarea {
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 100%;
+  max-width: 100%;
+}
+.contact form h2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--whiteColor);
+}
+.contact form button {
+  width: 30%;
+  height: 55px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--whiteColor);
+  border: 1px solid var(--whiteColor);
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+.contact form .input-box .field {
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  margin-top: 30px;
+  padding: 0px 5px;
+  font-size: 16px;
+  color: var(--whiteColor);
+  border: none;
+  border-bottom: 1px solid var(--whiteColor);
+}
+.contact form .input-box .field::-moz-placeholder {
+  color: var(--whiteColor);
+}
+.contact form .input-box .field::placeholder {
+  color: var(--whiteColor);
+}

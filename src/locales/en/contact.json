@@ -1,0 +1,9 @@
+{
+  "title": "Contact",
+  "namePlaceholder": "Enter your name",
+  "emailPlaceholder": "Enter your email",
+  "messagePlaceholder": "Enter your message",
+  "button": "Send Message",
+  "successTitle": "Success!",
+  "successMessage": "Message sent successfully!"
+}

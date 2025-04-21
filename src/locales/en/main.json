@@ -1,0 +1,10 @@
+{
+  "ourPackages": "Our Packages",
+  "searchHoliday": "Search your Holiday",
+  "searchDestination": "Search Your destination:",
+  "selectCity": "Select a city",
+  "checkIn": "Check-in date",
+  "checkOut": "Check-out date",
+  "searchBtn": "SEARCH",
+  "selectDestinationAlert": "Please select a destination"
+}

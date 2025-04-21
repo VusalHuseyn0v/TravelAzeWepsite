@@ -1,0 +1,9 @@
+{
+  "title": "Контакт",
+  "namePlaceholder": "Введите ваше имя",
+  "emailPlaceholder": "Введите ваш email",
+  "messagePlaceholder": "Введите ваше сообщение",
+  "button": "Отправить сообщение",
+  "successTitle": "Успешно!",
+  "successMessage": "Сообщение успешно отправлено!"
+}

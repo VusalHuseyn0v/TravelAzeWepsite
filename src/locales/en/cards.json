@@ -1,0 +1,61 @@
+{
+  "mostVisited": "Most visited destinations",
+  "details": "Details",
+
+  "destinations": {
+    "qax": {
+      "title": "Qakh",
+      "location": "Azerbaijan Qakh",
+      "grade": "Cultural relax",
+      "description": "Qakh is a region located in the northwestern part of Azerbaijan, known for its rich nature, ancient history, and culture. This region is attractive to both local and foreign visitors..."
+    },
+    "sheki": {
+      "title": "Sheki",
+      "location": "Azerbaijan Sheki",
+      "grade": "Cultural relax",
+      "description": "Shaki is a region located in the northwestern part of Azerbaijan, known for its history, culture, and nature. This region is an attractive destination for both local and foreign tourists..."
+    },
+    "zaqatala": {
+      "title": "Zaqatala",
+      "location": "Azerbaijan Zaqatala",
+      "grade": "Cultural relax",
+      "description": "Zaqatala is a district located in the northwestern part of the Republic of Azerbaijan, known for its nature, history, and culture..."
+    },
+    "qusar": {
+      "title": "Gusar",
+      "location": "Azerbaijan Gusar",
+      "grade": "Cultural relax",
+      "description": "Qusar district is located in the north of Azerbaijan, at the foothills of the Greater Caucasus Mountains. The district borders with Quba and is characterized by mountainous and forested areas..."
+    },
+    "quba": {
+      "title": "Quba",
+      "location": "Azerbaijan Quba",
+      "grade": "Cultural relax",
+      "description": "Quba district is located in the north of Azerbaijan, on the southern foothills of the Greater Caucasus Mountains, to the west of the Caspian Sea. Quba borders the Russian Federation..."
+    },
+    "ismayilli": {
+      "title": "Ismayilli",
+      "location": "Azerbaijan Ismayilli",
+      "grade": "Cultural relax",
+      "description": "Ismayilli district is located in the northeastern part of Azerbaijan and is known for its rich nature and culture. It borders the Quba and Shaki districts..."
+    },
+    "qebele": {
+      "title": "Gabala",
+      "location": "Azerbaijan Gabala",
+      "grade": "Cultural relax",
+      "description": "Gabala district is located in the northwestern part of Azerbaijan, on the southern foothills of the Greater Caucasus Mountains. This region is rich in natural resources and stunning landscapes..."
+    },
+    "lenkeran": {
+      "title": "Lankaran",
+      "location": "Azerbaijan Lankaran",
+      "grade": "Cultural relax",
+      "description": "Lankaran district is located in the southern part of Azerbaijan and is known for its natural beauty, rich cultural heritage, and economic significance..."
+    },
+    "lerik": {
+      "title": "Lerik",
+      "location": "Azerbaijan Lerik",
+      "grade": "Cultural relax",
+      "description": "Lerik district is located in the south of Azerbaijan, bordering the Lankaran district, and is known for its natural beauty, rich culture, and unique flora and fauna..."
+    }
+  }
+}
